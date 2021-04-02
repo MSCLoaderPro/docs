@@ -1,0 +1,6 @@
+- Translations
+  - [:uk: English](/)
+  - [🇸🇪 Swedish](/de-de/)
+  - [🇵🇱 Polish](/pl-pl/)
+  -
+  - [Help Translating](translate.md)
