@@ -35,6 +35,7 @@
       sidebarDisplayLevel: 1,
       relativePath: false,
       name: 'Mod Loader Pro',
+      repo: 'https://github.com/MSCLoaderPro',
       description: 'The best mod loader for My Summer car!',
       notFoundPage: "_404.md",
       darklightTheme: {
@@ -84,7 +85,8 @@
           hook.afterEach(function(html) {
             return html + footer;
           });
-        }
+        },
+        EditOnGithubPlugin.create(docBase, docEditBase, title)
       ],
       progress: {
         position: "top",
@@ -115,5 +117,6 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-plugin-carbon@1.0.1/index.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
 </body>
 </html>
