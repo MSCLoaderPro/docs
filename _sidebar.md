@@ -51,4 +51,6 @@
     - [PaintSystem](API/MSCLoader/Paint/PaintSystem.md)
 
 
+- [**Credits**](Credits.md)
+
 - [**Changelog**](changelog.md)
