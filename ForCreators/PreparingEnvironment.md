@@ -28,7 +28,7 @@ After you're done, it is possible that you may need to install .NET Framework 3.
 
 Next step after you successfully installed Visual Studio, is to add mod project template.
 
-You can download it [right there](_downloads/msc_mod_loader_mod_template.vsix).
+You can download it [right there](//github.com/MSCLoaderPro/docs/raw/main/ForCreators/_downloads/msc_mod_loader_mod_template.vsix).
 
 When the download has finished, double-click on the file. This will open a window that looks like this:
 
