@@ -16,7 +16,12 @@ Mod Loader Pro is a fork of [MSCLoader](https://github.com/piotrulos/MSCModLoade
 
 ## Quick Start Guide
 
-*beep boop, i'm not ready*
+- [Downlad the latest version of Installer](https://github.com/MSCLoaderPro/docs/releases)
+- If Installer couldn't find MSC folder, point it to your MSC installation folder
+- Click "Continue"
+- Wait few seconds...
+- ???
+- Click "Start Game"!
 
 <script>
 var sequence = [ 38, 38, 40, 40, 37, 39, 37, 39, 66, 65 ];
