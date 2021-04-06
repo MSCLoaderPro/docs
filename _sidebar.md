@@ -33,22 +33,24 @@
     - [ModConsole](API/MSCLoader/ModConsole.md)
     - [ModLoader](API/MSCLoader/ModLoader.md)
 
-  - [**MSCLoader.Helper**](API/MSCLoader/Helper.md)
-    - [ModHelper](API/MSCLoader/Helper/ModHelper.md)
-    - [PlayMakerHelper](API/MSCLoader/Helper/PlayMakerHelper.md)
-    - [PlayMakerProxyHelper](API/MSCLoader/Helper/PlayMakerProxyHelper.md)
+  - [**MSCLoader.Helper**](API/MSCLoader.Helper.md)
+    - [ModHelper](API/MSCLoader.Helper/ModHelper.md)
+    - [PlayMakerHelper](API/MSCLoader.Helper/PlayMakerHelper.md)
+    - [PlayMakerProxyHelper](API/MSCLoader.Helper/PlayMakerProxyHelper.md)
 
-  - [**MSCLoader.PartMagnet**](API/MSCLoader/PartMagnet.md)
-    - [Bolt](API/MSCLoader/PartMagnet/Bolt.md)
-    - [BoltMagnet](API/MSCLoader/PartMagnet/BoltMagnet.md)
-    - [PartMagnet](API/MSCLoader/PartMagnet/PartMagnet.md)
+  - [**MSCLoader.PartMagnet**](API/MSCLoader.PartMagnet.md)
+    - [Bolt](API/MSCLoader.PartMagnet/Bolt.md)
+    - [BoltMagnet](API/MSCLoader.PartMagnet/BoltMagnet.md)
+    - [PartMagnet](API/MSCLoader.PartMagnet/PartMagnet.md)
 
-  - [**MSCLoader.MSCCar**](API/MSCLoader/MSCCar.md)
-    - [DragRace](API/MSCLoader/MSCCar/DragRace.md)
-    - [DragRaceVehicle](API/MSCLoader/MSCCar/DragRaceVehicle.md)
+  - [**MSCLoader.MSCCar**](API/MSCLoader.MSCCar.md)
+    - [DragRace](API/MSCLoader.MSCCar/DragRace.md)
+    - [DragRaceVehicle](API/MSCLoader.MSCCar/DragRaceVehicle.md)
 
-  - [**MSCLoader.Paint**](API/MSCLoader/Paint.md)
-    - [PaintSystem](API/MSCLoader/Paint/PaintSystem.md)
+  - [**MSCLoader.Paint**](API/MSCLoader.Paint.md)
+    - [PaintSystem](API/MSCLoader.Paint/PaintSystem.md)
 
+
+- [**Credits**](Credits.md)
 
 - [**Changelog**](changelog.md)

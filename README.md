@@ -4,12 +4,12 @@
 
 Welcome to the MSC Mod Loader Pro documentation!
 
-Mod Loader Pro is a fork of [MSCLoader](https://github.com/piotrulos/MSCModLoader), which improves on top of it - in many areas, rebuilding it's systems from scratch, while keeping the backward compatibility with older mods, while also adding new features that make mod making much, much easier.
+Mod Loader Pro is a fork of [MSCLoader](https://github.com/piotrulos/MSCModLoader), which improves on it - in many areas rebuilding its systems from scratch, while keeping the backwards compatibility with older mods, while also adding new features that make mod making much, much easier.
 
 ## Features
 
 - [x] Faster mod loading
-- [x] Easy way of creating mods - add items to the shop shelves, quickly add new car parts and more!
+- [x] Easy way of creating mods - comprehensive systems with high flexibility!
 - [x] Support for mod auto updates - with GitHub or NexusMods
 - [x] No external tools needed to update the Mod Loader
 - [x] Configurable in every aspect
