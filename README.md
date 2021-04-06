@@ -17,7 +17,7 @@ Mod Loader Pro is a fork of [MSCLoader](https://github.com/piotrulos/MSCModLoade
 ## Quick Start Guide
 
 - [Downlad the latest version of Installer](https://github.com/MSCLoaderPro/docs/releases)
-- If Installer couldn't find MSC folder, point it to your MSC installation folder
+- If Installer wasn't able to locate MSC folder, point it to your MSC installation folder
 - Click "Continue"
 - Wait few seconds...
 - ???
