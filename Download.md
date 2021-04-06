@@ -17,6 +17,6 @@ Alternatively, you can <a href="//github.com/MSCLoaderPro/EarlyAccessRelease/rel
 }
 
 .btn-download:hover {
-  background-color: RoyalBlue;
+  background-color: rgb(60, 131, 110);
 }
 </style>
