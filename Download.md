@@ -2,7 +2,7 @@
 
 You can download Mod Loader Pro right over here:
 
-<a href="//github.com/MSCLoaderPro/docs/releases" target="_blank"><button class="btn-download">Download</button></a>
+<a href="//github.com/MSCLoaderPro/docs/releases/latest/download/Installer.exe" target="_blank"><button class="btn-download">Download</button></a>
 
 Alternatively, you can <a href="//github.com/MSCLoaderPro/EarlyAccessRelease/releases">install Mod Loader Pro manually</a>.
 
@@ -14,6 +14,7 @@ Alternatively, you can <a href="//github.com/MSCLoaderPro/EarlyAccessRelease/rel
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
+  border-radius: 40px;
 }
 
 .btn-download:hover {
