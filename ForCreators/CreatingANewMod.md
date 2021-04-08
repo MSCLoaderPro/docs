@@ -37,7 +37,7 @@ Additionally, you may want, but you don't have to import following references:
 
 !> Make sure you imported a Mod Loader Pro assembly, you can check that by selecting the imported MSCLoader.dll ported and checking the assembly info.<br>![note](/CreatingANewMod/note.png)
 
-## Optional quality of life stuff
+## (Optional) Automatic copy and start the game
 
 You can also set up Visual Studio so it will automatically move the assembly to Mods folder. In order to do that, double-click on "**Properties**", then go to "Build Events". In "**Post-build event command line**". In here, paste the following command, where "**path to mods folder**" is replaced with your path fo mods folder (so ex. **C:\Steam\steamapps\common\My Summer Car\Mods**).
 
