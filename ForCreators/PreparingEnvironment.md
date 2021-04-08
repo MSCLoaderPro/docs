@@ -48,7 +48,7 @@ Contains a starting template for a car mod, including physic materials. After do
 
 ### Debugger
 
-Contains a tool that makes it easier to debug mods (such as by showing exact line of code an error has occured). See [creating a new mod](/ForCreators/CreatingANewMod.md) to see more.
+Contains a tool that makes it easier to debug mods (such as by showing exact line of code an error has occured). See [creating a new mod](ForCreators/CreatingANewMod?id=optional-automatic-copy-and-start-the-game) to see more.
 
 ## It's done!
 
