@@ -50,6 +50,14 @@ Contains a starting template for a car mod, including physic materials. After do
 
 Contains a tool that makes it easier to debug mods (such as by showing exact line of code an error has occured). See [creating a new mod](ForCreators/CreatingANewMod?id=optional-automatic-copy-and-start-the-game) to see more.
 
+After you're done choosing what you want, click `Install`. This will take several seconds to complete.
+
+During the installation, if you selected the `Microsoft Visual Studio 2019 Template`, a window below will appear:
+
+![tut_5](/PreparingEnvironment/Media/5.png)
+
+Simply click `Install`.
+
 ## It's done!
 
 If you are done, you can move on to the next page 😄
