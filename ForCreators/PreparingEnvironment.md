@@ -24,17 +24,39 @@ After that, you press "**Install**" in the bottom right corner.
 
 After you're done, it is possible that you may need to install .NET Framework 3.5. In order to do that, please refer to [this article](https://docs.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows-10).
 
-## Adding project template
+## Adding developer tools & resources
 
-Next step after you successfully installed Visual Studio, is to add mod project template.
+Next step after you successfully installed Visual Studio, is to add mod project template and other resources.
 
-You can download it [right there](//github.com/MSCLoaderPro/docs/raw/main/ForCreators/_downloads/msc_mod_loader_mod_template.vsix).
+The easiest way to do it is to use Installer. Download installer from [the download page](/Download.md) and install the Mod Loader Pro as per usual. On the last page, click "**Install Dev Tools**".
 
-When the download has finished, double-click on the file. This will open a window that looks like this:
+![tut_6](/PreparingEnvironment/Media/6.png)
+
+A following screen will appear:
+
+![tut_7](/PreparingEnvironment/Media/7.png)
+
+Choose items that you would like to install.
+
+### Microsoft Visual Studio 2019 Template (recommended)
+
+A mod template for Microsoft Visual Studio - highly recommended, will make your life much easier. After it finished downloading, it will launch a template installer.
+
+### Unity Template
+
+Contains a starting template for a car mod, including physic materials. After downloading, you can find it inside of My Summer Car folder in `MSCTemplateProject` folder.
+
+### Debugger
+
+Contains a tool that makes it easier to debug mods (such as by showing exact line of code an error has occured). See [creating a new mod](ForCreators/CreatingANewMod?id=optional-automatic-copy-and-start-the-game) to see more.
+
+After you're done choosing what you want, click `Install`. This will take several seconds to complete.
+
+During the installation, if you selected the `Microsoft Visual Studio 2019 Template`, a window below will appear:
 
 ![tut_5](/PreparingEnvironment/Media/5.png)
 
-Click "Install", in order to apply the changes.
+Simply click `Install`.
 
 ## It's done!
 
