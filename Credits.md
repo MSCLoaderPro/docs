@@ -51,7 +51,7 @@ cerberus
 https://stackoverflow.com/a/44095036  
 
 **Legacy code and old mod loaders**  
-[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)  
+[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)   
 https://github.com/MSCLoaderPro/MSCLoaderLegacy
 dsonbill  
 https://github.com/dsonbill/MSCModLoader  
