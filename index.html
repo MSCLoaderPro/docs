@@ -9,7 +9,7 @@
   <meta name="keywords" content="msc,mysummercar,modloader,mscloader,mscmodloader,msc">
   <link rel="icon" href="./_media/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" title="docsify-darklight-theme" type="text/css"/>
-  <link rel="stylesheet" href="//unpkg.com/docsify-link-preview/src/style.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
   <link rel="stylesheet" href="css/prism.css"/>
   <script src="//cdn.jsdelivr.net/npm/docsify-plugin-carbon@1.0.1/index.min.js"></script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
@@ -49,7 +49,8 @@
           background: '#363940',
           textColor: '#b4b4b4',
           codeTextColor : '#cccccc',
-          codeBackgroudColor : '#303136',
+          //codeBackgroudColor : '#303136',
+          codeBackgroudColor : '#1E1E1E',
           borderColor : '#b4b4b4',
           blockQuoteColour : '#858585',
           highlightColor : '#d22778',
@@ -85,13 +86,15 @@
           hook.afterEach(function(html) {
             return html + footer;
           });
-        }
+        },
+
+        function (hook, vm) {
+          // parse twemoji
+          hook.doneEach(function() {
+              twemoji.parse(document);
+          });
+        },
       ],
-      progress: {
-        position: "top",
-        color: "var(--theme-color,#42b983)",
-        height: "3px",
-      },
       tabs: {
         persist    : true,      // default
         sync       : true,      // default
@@ -106,16 +109,15 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-csharp.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-batch.js"></script>
   <script src="js/index.js" type="text/javascript"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-plugin-carbon@1.0.1/index.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+  <script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>
 </body>
 </html>
