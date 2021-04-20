@@ -1,7 +1,6 @@
 - **Getting started**
   - [Home](/)
   - [Download](Download.md)
-  - [Upgrade from MSCLoader](UpgradeFromMSCLoader.md)
   - [Frequently Asked Questions](FAQ.md)
 - **For creators**
   - [Preparing Environment](ForCreators/PreparingEnvironment.md)

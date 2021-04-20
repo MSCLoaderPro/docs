@@ -9,18 +9,20 @@ Mod Loader Pro is a fork of [MSCLoader](https://github.com/piotrulos/MSCModLoade
 ## Features
 
 - [x] Faster mod loading
+- [x] Easy to install and run
+- [x] NexusMods support
 - [x] Easy way of creating mods - comprehensive systems with high flexibility!
-- [x] Support for mod auto updates - with GitHub or NexusMods
-- [x] No external tools needed to update the Mod Loader
+- [x] Support for mod auto updates - with NexusMods or GitHub
+- [x] Seamless Mod Loader auto updates
 - [x] Configurable in every aspect
 
 ## Quick Start Guide
 
-- [Downlad the latest version of Installer](https://github.com/MSCLoaderPro/docs/releases)
+- [Download the latest version of Installer](https://github.com/MSCLoaderPro/docs/releases)
 - If Installer wasn't able to locate MSC folder, point it to your MSC installation folder
 - Click "Continue"
 - Wait few seconds...
-- ???
+- *???*
 - Click "Start Game"!
 
 <script>
