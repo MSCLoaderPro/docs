@@ -1,29 +1,34 @@
 # Bolt
-Namespace: MSCLoader.PartMagnet / Inherits from: [MonoBehaviour](https://docs.unity3d.com/500/Documentation/ScriptReference/MonoBehaviour.html)
-#### Description <!-- {docsify-ignore} -->
-A class to control the bolting aspect of a [Bolt Magnet]()
-#### Variables <!-- {docsify-ignore} -->
 
->[BoltMagnet]() Linked BoltMagnet Component.<br>
->[BoltSize](MSCLoader.PartMagnet/Bolt/BoltSize.md) Size of the bolt from the game's available tool sizes.<br>
->[tightness](MSCLoader.PartMagnet/Bolt/tightness.md) Current tightness. This is increased/decreased as the bolt is screwed.<br>
->[minTightness](MSCLoader.PartMagnet/Bolt/minTightness.md) Min tightness of the bolt.<br>
->[maxTightness](#Bolt) Max tightness of the bolt.<br>
->[tightnessPositionDelta](#Bolt) Change in position each screw.<br>
->[tightnessRotationDelta](#Bolt) Change in rotation each screw.<br>
->[allowRatchetWrench](#Bolt) Allow the ratchet wrench to be used on the bolt.<br>
->[highlightBolt](#Bolt) Highlight the bolt when hovering with the right tool over it.<br>
->[customAudioSource](#Bolt) (OPTIONAL) Custom audiosource that'll play the custom sounds.<br>
->[customScrewInSound](#Bolt) (OPTIONAL) Custom screw in sound.<br>
->[customScrewOutSound](#Bolt) (OPTIONAL) Custom screw out sound.<br>
->[deltaBreakForce](#Bolt) (OPTIONAL) Change in joint break force each screw.<br>
->[deltaBreakTorque](#Bolt) (OPTIONAL) Change in joint break torque each screw.<br>
->[customHighlightMaterial](#Bolt) (OPTIONAL) Custom hightlight material for the hovering over.<br>
->[size](#Bolt) Raw size of the bolt, not locked to game's available tools.<br>
+*Namespace: MSCLoader.PartMagnet / Inherits from: [MonoBehaviour](https://docs.unity3d.com/500/Documentation/ScriptReference/MonoBehaviour.html)*
 
-#### Public Functions <!-- {docsify-ignore} -->
->[Reset](#Bolt) Reset the bolt to minTightness.
+### Description
 
+Bolt container class, this controls a bolt for the [BoltMagnet](API/MSCLoader.PartMagnet/BoltMagnet.md) system.
 
+### Variables
 
+Name | Description | Type
+---- | ----------- | ----
+[boltMagnet](API/MSCLoader.PartMagnet/Bolt/Variables/boltMagnet.md) | Linked [BoltMagnet](API/MSCLoader.PartMagnet/BoltMagnet.md) Component. | [BoltMagnet](API/MSCLoader.PartMagnet/BoltMagnet.md)
+[boltSize](API/MSCLoader.PartMagnet/Bolt/Variables/boltSize.md) | Size of the bolt from the game's available tool sizes. | <font color="#aac397">BoltSize</font>
+[tightness](API/MSCLoader.PartMagnet/Bolt/Variables/tightness.md) | Current tightness. This is increased/decreased as the bolt is screwed. | <font color=#4170a7>int</font>
+[minTightness](API/MSCLoader.PartMagnet/Bolt/Variables/minTightness.md) | Min tightness of the bolt. | <font color=#4170a7>int</font>
+[maxTightness](API/MSCLoader.PartMagnet/Bolt/Variables/maxTightness.md) | Max tightness of the bolt. | <font color=#4170a7>int</font>
+[tightnessPositionDelta](API/MSCLoader.PartMagnet/Bolt/Variables/tightnessPositionDelta.md) | Change in position each screw. | [Vector3](https://docs.unity3d.com/500/Documentation/ScriptReference/Vector3.html)
+[tightnessRotationDelta](API/MSCLoader.PartMagnet/Bolt/Variables/tightnessRotationDelta.md) | Change in rotation each screw. | [Vector3](https://docs.unity3d.com/500/Documentation/ScriptReference/Vector3.html)
+[allowRatchetWrench](API/MSCLoader.PartMagnet/Bolt/Variables/allowRatchetWrench.md) | Allow the ratchet wrench to be used on the bolt. | <font color=#4170a7>bool</font>
+[highlightBolt](API/MSCLoader.PartMagnet/Bolt/Variables/highlightBolt.md) | Highlight the bolt when hovering with the right tool over it. | <font color=#4170a7>bool</font>
+[customAudioSource](API/MSCLoader.PartMagnet/Bolt/Variables/customAudioSource.md) | (OPTIONAL) Custom audiosource that'll play the custom sounds. | [AudioSource](https://docs.unity3d.com/500/Documentation/ScriptReference/AudioSource.html)
+[customScrewInSound](API/MSCLoader.PartMagnet/Bolt/Variables/customScrewInSound.md) | (OPTIONAL) Custom screw in sound. | [AudioClip](https://docs.unity3d.com/500/Documentation/ScriptReference/AudioClip.html)
+[customScrewOutSound](API/MSCLoader.PartMagnet/Bolt/Variables/customScrewOutSound.md) | (OPTIONAL) Custom screw out sound. | [AudioClip](https://docs.unity3d.com/500/Documentation/ScriptReference/AudioClip.html)
+[deltaBreakForce](API/MSCLoader.PartMagnet/Bolt/Variables/deltaBreakForce.md) | (OPTIONAL) Change in joint break force each screw. | <font color=#4170a7>float</font>
+[deltaBreakTorque](API/MSCLoader.PartMagnet/Bolt/Variables/deltaBreakTorque.md) | (OPTIONAL) Change in joint break torque each screw. | <font color=#4170a7>float</font>
+[customHighlightMaterial](API/MSCLoader.PartMagnet/Bolt/Variables/customHighlightMaterial.md) | (OPTIONAL) Custom hightlight material for the hovering over. | [Material](https://docs.unity3d.com/500/Documentation/ScriptReference/Material.html)
+[size](API/MSCLoader.PartMagnet/Bolt/Variables/size.md) | Raw size of the bolt, not locked to game's available tools. | <font color=#4170a7>float</font>
 
+### Public Functions
+
+Name | Description | Returns
+---- | ----------- | -------
+[Reset](API/MSCLoader.PartMagnet/Bolt/Functions/Reset.md) | Reset the bolt to minTightness. | <font color=#4170a7>void</font>

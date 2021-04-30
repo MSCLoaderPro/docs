@@ -4,7 +4,7 @@ You can download Mod Loader Pro Installer from the link below:
 
 <a href="//github.com/MSCLoaderPro/docs/releases/latest/download/Installer.exe" target="_blank"><button class="btn-download">Download</button></a>
 
-Alternatively, you can <a href="//github.com/MSCLoaderPro/EarlyAccessRelease/releases">install Mod Loader Pro manually</a>.
+Alternatively, you can <a href="//github.com/MSCLoaderPro/MSCModLoaderPro/releases/latest">install Mod Loader Pro manually</a>.
 
 ## Installing Mod Loader Pro
 

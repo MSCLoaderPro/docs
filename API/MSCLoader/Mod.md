@@ -38,6 +38,8 @@ Name | Description | Order of Execution
 [Update](API/MSCLoader/Mod/Functions/Update.md) | Update method for the game scene. | Every frame
 [FixedUpdate](API/MSCLoader/Mod/Functions/FixedUpdate.md) | FixedUpdate method for the game scene. | Every fixed framerate frame
 [OnSave](API/MSCLoader/Mod/Functions/OnSave.md) | Method called when the player saves the game. | 8
+[OnModEnabled](API/MSCLoader/Mod/Functions/OnModEnabled.md) | Method called when the mod gets enabled manually (by code or by the user). | Whenever the mod is toggled enabled
+[OnModDisabled](API/MSCLoader/Mod/Functions/OnModDisabled.md) | Method called when the mod gets disabled manually (by code or by the user). | Whenever the mod is toggled disabled
 
 ### Example
 
