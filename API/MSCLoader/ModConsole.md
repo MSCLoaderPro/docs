@@ -17,3 +17,4 @@ Name | Description | Returns
 [LogError](API/MSCLoader/ModConsole/Functions/LogError.md) | Logs an error string to the ModConsole and output_log.txt, default red text and the console might auto-open depending on user settings. | <font color=#4170a7>void</font>
 [LogWarning](API/MSCLoader/ModConsole/Functions/LogWarning.md) | Logs a warning string to the ModConsole and output_log.txt, default yellow text and the console might auto-open depending on user settings. | <font color=#4170a7>void</font>
 [ToggleConsole](API/MSCLoader/ModConsole/Functions/ToggleConsole.md) | Open/Close the console window. | <font color=#4170a7>void</font>
+[ExecuteCommand](API/MSCLoader/ModConsole/Functions/ExecuteCommand.md) | Executes a command by its string. | <font color=#4170a7>void</font>
