@@ -53,4 +53,4 @@
 
 - [**Credits**](Credits.md)
 
-- [**Changelog**](changelog.md)
+- [**Changelog**](Changelog.md)
