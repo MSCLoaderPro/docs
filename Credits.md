@@ -1,8 +1,9 @@
 # Credits
 
-**PlayMakerArrayListProxy Helper Methods**  
-ModHelper PlayMakerProxyUtility  
+**The Mod Loader Pro Team**  
+Athlon 
 BrennFuchS
+Fredrik
 
 **FastOBJImporter**  
 FastOBJImporter  
