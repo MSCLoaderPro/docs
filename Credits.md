@@ -59,6 +59,8 @@ https://github.com/dsonbill/MSCModLoader
 piotrulos  
 https://github.com/piotrulos/MSCModLoader  
 
+**Spelling bee award!**
+./sykovanz
 
 #### EXTERNAL LIBRARIES:
 
