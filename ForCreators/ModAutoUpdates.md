@@ -1,6 +1,6 @@
 # Mod Auto-Updates
 
-Mod Loader Pro can atuomatically check and download available updates. It is up to modder to add one - either via **NexusMods**, or **GitHub**. Modder's only task is to add a link to the update page of his mod.
+Mod Loader Pro can automatically check and download available updates. It is up to modder to add one - either via **NexusMods**, or **GitHub**. Modder's only task is to add a link to the update page of his mod.
 
 ## NexusMods or GitHub
 
