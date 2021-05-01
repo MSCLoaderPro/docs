@@ -1,9 +1,9 @@
 # Credits
 
 **The Mod Loader Pro Team**  
-Athlon 
-BrennFuchS
-Fredrik
+Athlon  
+BrennFuchS  
+Fredrik  
 
 **FastOBJImporter**  
 FastOBJImporter  
