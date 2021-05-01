@@ -16,6 +16,14 @@ Absolutely most, if not all! Only in some very rare cases, mod may not be compat
 
 Also, mods such as [Tangerine FZ-120](https://www.nexusmods.com/mysummercar/mods/176) or [Modern Optimization Plugin](https://www.nexusmods.com/mysummercar/mods/146) have been updated to Mod Loader Pro, in order to fully utilise new features that Mod Loader Pro offers.
 
+## Where do I place the mods, how do I install them?
+
+If you're familiar with MSCLoader you'll find that it's eerily similar, you download whatever mods you'd like, then you extract or copy them over to the Mods-folder. By default in Mod Loader Pro, the Mods-folder is located in the game folder next to the game's executable. 
+
+After you've found the Mods-folder, please refer to each mod's description for more instructions on how to install that particular mod.
+
+Through Steam you can access that folder by right-clicking My Summer Car in the Library, press Properties, go to the Local Files section and press Browse, and Steam will open the game folder in the explorer. You'll then find the Mods-folder there.
+
 ## Do I have to do anything while moving from MSCLoader to Mod Loader Pro?
 
 Nope! Mod Loader Pro Installer does everything for you and configure itself automatically.
