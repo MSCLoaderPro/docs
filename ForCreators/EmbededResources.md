@@ -24,7 +24,7 @@ if you want to add a resource follow these simple steps:
 
 # Adding a resource
 
-`NOTICE: this doesn't fully apply to adding Mod Icons!`
+!> `NOTICE: this doesn't fully apply to adding Mod Icons! use this tutorial:`
 [Adding mod icon](ForCreators/EmbededResources.md?id=adding-mod-icon)
 
 1. click on the arrow left to `Add Resource` you should see this.
