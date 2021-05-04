@@ -8,7 +8,7 @@
   - [Porting existing mods to Mod Loader Pro](ForCreators/PortingMods.md)
   - [Cross-platform mods](ForCreators/CrossPlatformMods.md)
   - [Mod Auto-Updates](ForCreators/ModAutoUpdates.md)
-  - [Adding mod icon](ForCreators/AddingModIcon.md)
+  - [Embeded Resources](ForCreators/EmbededResources.md)
 - **API**
   - [**MSCLoader**](API/MSCLoader.md)
     - [Mod](API/MSCLoader/Mod.md)
