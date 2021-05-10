@@ -1,40 +1,40 @@
-# *Embeded Resources* #
+# Embeded Resources
 
-# locating/making a resources file
+## Locating/making a resources file
 
 Adding a resource to your project is one of the easiest processes in modding.
 
-if you want to add a resource follow these simple steps:
+If you want to add a resource follow these simple steps:
 
-1. click on `Project` in the header of Visual Studio and then click on `'YourModName' Properties`.
+1. Click on `Project` in the header of Visual Studio and then click on `'YourModName' Properties`.
 
 ![tut_1](/EmbededResources/Media/1.png)
 
-2. a tab should have opened and should look like this.
+2. A tab should have opened and should look like this.
 
 ![tut_2](/EmbededResources/Media/2.png)
 
-3. click on `Resources`, you should see this now.
+3. Click on `Resources`, you should see this now.
 
 ![tut_3](/EmbededResources/Media/3.png)
 
-4. if you don't see that but see this, click on  `This project does not contain a default resources file. Click here to create one.`
+4. If you don't see that but see this, click on `This project does not contain a default resources file. Click here to create one.`
 
 ![tut_4](/EmbededResources/Media/4.png)
 
-# Adding a resource
+## Adding a resource
 
-!> NOTICE: this doesn't fully apply to adding Mod Icons! use this tutorial: [Adding mod icon](ForCreators/EmbededResources.md?id=adding-mod-icon)
+!> NOTICE: this doesn't fully apply to adding Mod Icons! Use this tutorial: [Adding mod icon](ForCreators/EmbededResources.md?id=adding-mod-icon)
 
-1. click on the arrow left to `Add Resource` you should see this.
+1. Click on the arrow left to `Add Resource` you should see this.
 
 ![tut_5](/EmbededResources/Media/5.png)
 
-2. click on `Add Existing File...` a file explorer window should have opened, now find your resource on your computer and select it. then click on `Open when you found it.`
+2. Click on `Add Existing File...` a file explorer window should have opened, now find your resource on your computer and select it. then click on `Open when you found it.`
 
-# Adding mod icon
+## Adding mod icon
 
-Adding an icon to the mod is a very simple and fast process. It involves simply adding an image file into Resources of the assembly. unfortunately, due to System.Image library limitations built into Unity3D, an image extension has to be removed.
+Adding an icon to the mod is a very simple and fast process. It involves simply adding an image file into Resources of the assembly. Unfortunately, due to System.Image library limitations built into Unity3D, an image extension has to be removed.
 
 You need an image in **PNG** format in the **1:1** ratio. The recommended resolution is **56x56** pixels. Name it something simple (for example, **icon.png**).
 
