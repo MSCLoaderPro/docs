@@ -18,7 +18,7 @@ Also, mods such as [Tangerine FZ-120](https://www.nexusmods.com/mysummercar/mods
 
 ## Where do I place the mods, how do I install them?
 
-If you're familiar with MSCLoader you'll find that it's eerily similar, you download whatever mods you'd like, then you extract or copy them over to the Mods-folder. By default in Mod Loader Pro, the Mods-folder is located in the game folder next to the game's executable. 
+If you're familiar with MSCLoader you'll find that it's eerily similar, you download whatever mods you'd like, then you extract or copy them over to the Mods-folder. By default in Mod Loader Pro, the Mods-folder is located in the game folder next to the game's executable.
 
 After you've found the Mods-folder, please refer to each mod's description for more instructions on how to install that particular mod.
 
@@ -45,5 +45,17 @@ NexusMods API is **ONLY** used to communicate with NexusMods itself and is store
 ## Does Mod Loader Pro know my password to NexusMods?
 
 No, Mod Loader Pro uses NexusMods Single Sign-On (SSO). It is NexusMods that handles all the authentication.
+
+## Do I have to pay for Mod Loader Pro?
+
+**NO.** Mod Loader Pro is a free software and always will be. What you may have to pay for is for NexusMods Premium membership, if you want mods downloaded from NexusMods to update automatically - this is due to the NexusMods policy.
+
+You don't need NexusMods subscription, if mod is being hosted on GitHub, or if you are updating Mod Loader Pro itself.
+
+## I am stuck on "Now Loading Mods in 1995..." screen
+
+This is very likely caused by [Modern Optimization Plugin](https://www.nexusmods.com/mysummercar/mods/146). Please update it first.
+
+If you are not using MOP, [consider reporting an issue](https://github.com/MSCLoaderPro/MSCModLoaderPro/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D).
 
 *<sup>1</sup> May require NexusMods Premium subscription.*
