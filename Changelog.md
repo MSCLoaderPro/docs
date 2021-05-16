@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.0.8 (14.05.2021)
+
+- Changed the Keybind setting to allow binding the left and right mousebutton.
+- Canceling and deleting keybinds is now done by buttons appearing when binding.
+- Deprecated the PartMagnet, BoltMagnet does the exact same thing with no bolts assigned.
+- Fixed potential save issue where a different method of calling the SAVEGAME event was used.
+- Sorted the mod list after the name of the mods rather than their file names (in case they'd be different from the name).
+- Added exception handler for if user exceeds GitHub request limit.
+- Added MSCLoader.LoadingScreen.
+- Fixed shadow direction on the open settings arrows.	
+- ModUpdater class rewritten from scratch - now should be faster and more reliable.
+- Added support for ".rar" and ".7z" archive formats, as well as support for "loose" libraries and executables (if they are a part of an archive).
+- Improved speed and reliability of update checking system.
+- Added "Sources.json" file in ModUpdater folder - enables mods that don't natively support Mod Loader Pro to have auto updates.
+- "Sources" file is updated automatically every 2 days.
+- Mods not natively supported by Mod Loader Pro (and have been added into Sources.json) will have their info downloaded from NexusMods.
+- CoolUpdater: Updated to version 1.0.4.
+- CoolUpdater: 403 errors should now be handled correctly.
+- CoolUpdater: Switched from Ionic.Zip to SharpCompress.
+
 ## 1.0.7 (07.05.2021)
 
 - Bolt components can now operate independently from a BoltMagnet component.
