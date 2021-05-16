@@ -8,10 +8,10 @@ Fredrik<br>
 **Contributors**<br>
 Krutonium<br>
 
-**FastOBJImporter**<br>
-FastOBJImporter<br>
-Marc Kusters (Nighteyes)<br>
-http://wiki.unity3d.com/index.php/FastObjImporter<br>
+**OBJImporter**<br>
+OBJImporter<br>
+The mysterious El Anónimo<br>
+http://wiki.unity3d.com/index.php?title=ObjImporter<br>
 
 **TGA Texture Importer**<br>
 ModAssets LoadTextureTGA()<br>
@@ -21,7 +21,7 @@ https://forum.unity.com/threads/tga-loader-for-unity3d.172291/#post-1587475<br>
 **DDS Texture Importer**<br>
 ModAssets LoadTextureDDS()<br>
 jeff-smith<br>
-http://answers.unity.com/answers/707772/view.html
+http://answers.unity.com/answers/707772/view.html<br>
 AARO4130<br>
 https://github.com/helemaalbigt/DesignSpace/blob/master/Assets/OBJImport/TextureLoader.cs<br>
 
