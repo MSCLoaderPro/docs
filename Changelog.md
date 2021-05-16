@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.9 (16.05.2021)
+
+- Fixed how OBJ model importing loads files not made with Blender.
+- Cleaned up legacy code.
+- Fixed ModUpdater glitching out, if the user was not logged in.
+- Fixed bunch of issues related to non-premium NexusMods users in mod updating system.
+- Fixed cancelling NexusMods login causing it to not work until after game restart.
+- Fixed mod updater getting stuck, if mod does not have a default picture set on NexusMods.
+- Fixed Credits button linking to the wrong URL.
+- Extended logging for some of the features.
+- Fixed the top menu label text disappearing too soon.
+- Fixed mod auto updates not working for people who have Mods folder outside of MSC
+
 ## 1.0.8 (14.05.2021)
 
 - Changed the Keybind setting to allow binding the left and right mousebutton.
