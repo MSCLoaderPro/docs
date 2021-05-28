@@ -9,6 +9,7 @@
   - [Cross-platform mods](ForCreators/CrossPlatformMods.md)
   - [Mod Auto-Updates](ForCreators/ModAutoUpdates.md)
   - [Embeded Resources](ForCreators/EmbededResources.md)
+  - [Ingame Input](ForCreators/IngameInput.md)
 - **API**
   - [**MSCLoader**](API/MSCLoader.md)
     - [Mod](API/MSCLoader/Mod.md)
