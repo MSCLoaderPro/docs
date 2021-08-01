@@ -41,3 +41,7 @@ document.addEventListener('keydown', function(event) {
     }
 });
 </script>
+
+## Note on WineHQ compatibility
+
+The ModLoaderPro injects it's code to the game using `winhttp` library thus on UNIX systems utilizing the WineHQ compatibility layer it's important to set `winhttp` library as `native` (e.g. in command `winecfg` -> `Library` tab) for wine to use our library otherwise the mod won't initialize due to wine using it's `builtin` library without our code injection.
